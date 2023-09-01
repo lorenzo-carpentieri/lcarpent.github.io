@@ -6,12 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Allan Lab
-email: your-email@domain.com
+title: UNISA HPC
 description: > # this means to ignore newlines until "baseurl:"
-  Website of the AllanLab.
-baseurl: ""
-url: ""
+  HPC Team at the University of Salerno, Italy, led by Prof. Biagio Cosenza. Part of ISISLab and the Department of Computer Science.
+domain: "emdant.github.io"
+url: "https://emdant.github.io"
 
 include:
   - .htaccess
