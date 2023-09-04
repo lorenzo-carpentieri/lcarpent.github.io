@@ -3,7 +3,7 @@ title: "UNISA HPC - Team"
 layout: gridlay
 excerpt: "UNISA HPC: Team"
 sitemap: false
-permalink: /team/
+# permalink: /team/
 ---
 
 # Group Members

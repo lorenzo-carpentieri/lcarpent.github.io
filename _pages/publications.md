@@ -9,7 +9,7 @@ permalink: /publications/
 
 # Publications
 
-## Group highlights
+## Team highlights
 
 **At the end of this page, you can find the [full list of publications](#full-list-of-publications).**
 
