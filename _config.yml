@@ -9,8 +9,8 @@
 title: UNISA HPC
 description: > # this means to ignore newlines until "baseurl:"
   HPC Team at the University of Salerno, Italy, led by Prof. Biagio Cosenza. Part of ISISLab and the Department of Computer Science.
-domain: "lorenzo_carpentieri.github.io"
-url: "https://lorenzo_carpentieri.github.io"
+domain: "lorenzo-carpentieri.github.io"
+url: "https://lorenzo-carpentieri.github.io"
 
 include:
   - .htaccess
