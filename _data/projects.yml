@@ -1,52 +1,35 @@
-- title: "SYnergy: Fine-grained Energy-Efficient Heterogeneous Computing for Scalable Energy Saving"
-  authors: Kaijie Fan, Marco D'Antonio, Lorenzo Carpentieri, Biagio Cosenza, Federico Ficarelli, Daniele Cesarini
+- title: "SYnergy"
   highlight: 1
   image: cloverleaf_ws.png
   description: We present an SYCL-based portable API, which enables energy profiling and frequency scaling on a broad range of hardware including NVIDIA V100 and AMD MI100. Furthermore, we propose a fine-grained energy efficiency methodology, which comprises a set of energy models that integrates into an SYCL compilation toolchain and enable per-kernel tuning for several objectives, including energy-delay product metrics (EDP and ED2P) as well as selected Pareto-optimal multi-objective solutions (ES_x and PL_x). The experimental evaluation of thirteen SYCL benchmarks and two real-world applications shows that we can accurately predict optimal frequency configuration for different metrics.
-  link:
-    display: International Conference for High Performance Computing, Networking, Storage and Analysis (SC), 2023
+  sitelink: synergy
+  publink:
+    display: Supercomputing 2023
+    url: https://doi.org/10.1145/3581784.3607055
 
 - title: "EMPI: Enhanced Message Passing Interface in Modern C++"
-  authors: Majid Salimi Beni, Luigi Crisci, Biagio Cosenza
   highlight: 1
   image: empi.gif
   description: "Message Passing Interface (MPI) is a well-known standard for programming distributed and HPC systems. This paper introduces EMPI, an Enhanced Message Passing Interface based on modern C++, which is directly mapped to the OpenMPI implementation and exploits modern C++ for safe and efficient distributed programming. EMPI proposes novel C++RAII-based semantics and constant specialization to prevent error-prone code patterns such as parameter mismatch, and reduce the overhead of handling multiple objects and perinvocation time. Consequently, EMPI programs are safer: six out of nine well-known MPI error patterns do not occur while correctly using EMPI semantics. Experimental results on five micro-benchmarks and two applications on a large-scale cluster using up to 1024 processes show that EMPI's performance is very similar to native MPI and considerably faster than the MPL C++ interface."
-  link:
-    display: 23rd IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid), 2023
+  sitelink: empi
+  publink:
+    display: CCGrid 2023
     url: https://doi.org/10.1109/CCGrid57682.2023.00023
 
-- title: "Towards a SYCL API for Approximate Computing"
-  authors: Lorenzo Carpentieri, Biagio Cosenza
+- title: "SYprox"
   highlight: 1
   image: reconstruction.png
   description: Approximate computing exploits the gap between the accuracy provided by a system and the accuracy required by an application. Many applications such as image processing and neural networks, are tolerant of a certain amount of error, and have the potential for significant improvements in terms of execution time and energy consumption if a small amount of error can be accepted. The SYprox API introduces a set of semantics that extend SYCL's buffers and accessors to provide a high-level easy-to-use programming API. SYprox's approximation framework seamlessly adds three additional stages to standard computational processing implementing perforation, input reconstruction and output reconstruction. It supports data perforation and elision patterns for efficient approximation, as well as signal reconstruction algorithms for error mitigation.
-  link:
-    display: Proceedings of the 2023 International Workshop on OpenCL (IWOCL and SYCLcon), 2023
+  sitelink: syprox
+  publink:
+    display: IWOCL and SYCLcon 2023
     url: https://doi.org/10.1145/3585341.3585374
 
-- title: "An Analysis of Long-Tailed Network Latency Distribution and Background Traffic on Dragonfly+"
-  authors: "Majid Salimi Beni, Biagio Cosenza"
+- title: "SYCL-Bench"
   highlight: 1
   image: network.webp
   description: "Modern computing systems are highly affected by large performance variability, resulting in a long tail in the distribution of the network latency. For communication-intensive applications, the variability comes from several factors such as the communication pattern, job placement strategies, routing algorithms, and most importantly, the network background traffic. This paper analyzes the sources of performance variability on a large-scale computing system with a Dragonfly+ network, investigating the impact of several sources, including the locality of job placement, the communication pattern, the message size, and the network background traffic. We propose a novel heuristic that accurately estimates the network traffic and helps to identify those highly-varying communications that contribute to the long tail. We have experimentally validated our proposed background traffic heuristic on a collection of pattern-based micro-benchmarks as well as two real-world applications, HACC and miniAMR."
-  link:
-    display: Benchmarking, Measuring, and Optimizing. Bench 2022. Lecture Notes in Computer Science, vol 13852. Springer
+  sitelink: sycl-bench
+  publink:
+    display: Euro-Par 2020
     url: https://doi.org/10.1007/978-3-031-31180-2_8
-
-- title: "An Analysis of Performance Variability on Dragonfly+ Topology"
-  authors: Majid Salimi Beni, Biagio Cosenza
-  link: 
-    display: IEEE International Conference on Cluster Computing (CLUSTER), 2022, 500-501
-    url: https://doi.org/10.1109/CLUSTER51413.2022.00061
-
-- title: "FLEXDP: flexible frequency scaling for energy-delay product optimization of GPU applications"
-  authors: Kaijie Fan, Biagio Cosenza, Ben H. H. Juurlink
-  link:
-    display: 19th ACM International Conference on Computing Frontiers (CF), 2022
-    url: https://doi.org/10.1145/3528416.3530241
-
-- title: "Towards a Portable Drug Discovery Pipeline with SYCL 2020"
-  authors: Luigi Crisci, Majid Salimi Beni, Biagio Cosenza, Nicolò Scipione, Davide Gadioli, Emanuele Vitali, Gianluca Palermo, Andrea Beccari
-  link:
-    display: International Workshop on OpenCL (IWOCL), 2022
-    url: https://doi.org/10.1145/3529538.3529688
